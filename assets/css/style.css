@@ -1,0 +1,63 @@
+/*
+color verde: #5db78e;
+color rosa: #cd7953;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.first-section{
+	background: linear-gradient(#5db78e, #cd7953);
+	height: 100vh;
+}
+
+.text-idioma{
+	color: #fff;
+}
+
+.img-logo{
+	padding-top: 40%;
+}
+
+.dato-info{
+	background: rgba(255, 255, 255, 0.3);
+	border: none;
+	padding: 10px;
+	width: 100%;
+	border-radius: 6px;
+	outline: 0;
+}
+
+.dato-info[placeholder]{      
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+.dato-info::placeholder {
+  color: #FFF;
+}
+
+.cont-btn{
+	padding-top: 5%;
+	width: 100%;
+}
+
+.btn-ingresar{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.btn-ingresar a{
+	text-decoration: none;
+	color: #fff;
+
+}
+
